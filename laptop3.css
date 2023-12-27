@@ -1,0 +1,49 @@
+.header .searching {
+    margin: 0vh 9.5vw;
+}
+
+.dropdown-content a i {
+    font-size: 1.4rem;
+    margin-right: -7px;
+}
+
+#searchi {
+    width: 37vw;
+}
+
+#navbar ul li {
+    margin: 0rem 0.3rem;
+}
+
+#navbar ul li a {
+    padding: 0.4rem 0.5rem;
+    font-size: 0.88rem;
+}
+
+#arrow {
+    display: block;
+}
+
+.menuitem i {
+    transform: scale(0.9);
+}
+
+.menuflex b {
+    font-size: 0.85rem;
+}
+
+.menuitem {
+    font-size: 0.9rem;
+}
+
+.signi {
+    margin-left: 3vw;
+}
+
+.item p {
+    font-size: 0.85rem;
+}
+
+.item iframe {
+    height: 20vh;
+}

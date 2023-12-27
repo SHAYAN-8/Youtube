@@ -1,0 +1,93 @@
+.header span img {
+    width: 5vw;
+}
+
+.header .searching {
+    margin: 0vh 9vw;
+}
+
+.signin {
+    padding: 0.3rem 0.2rem;
+}
+
+#navbar ul li {
+    padding: 0rem 0rem;
+}
+
+#navbar ul li a {
+    padding: 0.39rem 0.4rem;
+    font-size: 0.85rem;
+}
+
+
+/* MAIN */
+
+.mainflex {
+    padding: 10px 0px;
+}
+
+.item {
+    max-width: 23vw;
+    min-width: 18vw;
+    height: 45vh;
+    margin: 1rem;
+}
+
+.item iframe {
+    max-width: 23vw;
+    min-width: 18vw;
+    height: 25vh;
+}
+
+.item p {
+    font-size: 1.03rem;
+}
+
+.item pre {
+    font-size: 0.8rem;
+    margin-left: -0.5rem;
+}
+
+.item pre a {
+    font-size: 0.8rem;
+    margin-top: -1px;
+}
+
+#item-16 {
+    display: none;
+}
+
+.videocontent img {
+    height: 5.5vh;
+    width: 3vw;
+    margin-right: 10px;
+}
+
+.menuitem i {
+    transform: scale(0.8);
+}
+
+.menuflex b {
+    font-size: 0.77rem;
+}
+
+.menuflex p {
+    font-size: 0.8rem;
+}
+
+.menuflex pre {
+    line-height: 17px;
+}
+
+.menuitem {
+    font-size: 0.85rem;
+}
+
+.signi {
+    padding: 0.3rem 0.2rem;
+}
+
+.hd {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}

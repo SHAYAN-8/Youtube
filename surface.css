@@ -1,0 +1,116 @@
+.header span img {
+    width: 7vw;
+    margin-top: 0.8vh;
+    margin-left: 2vw;
+}
+
+.header .searching {
+    margin: 0vh 5vw;
+}
+
+#searchi {
+    height: 5vh;
+}
+
+.searchbtn {
+    height: 5vh;
+}
+
+.dropdown-content {
+    width: 30vw;
+    margin-left: -24vw;
+}
+
+.dropdown-content a {
+    width: 25vw;
+    font-size: 0.8rem;
+    padding: 8px 18px;
+}
+
+.signin {
+    margin-left: 0.3rem;
+    width: 10vw;
+}
+
+.menu {
+    height: 10vh;
+    width: 100vw;
+    top: 94vh;
+    overflow: hidden;
+}
+
+.menuflex {
+    background-color: white;
+    display: flex;
+    height: 6vh;
+    width: 100vw;
+    flex-direction: row;
+}
+
+.menuitem {
+    width: 2vw;
+    margin-left: 3.5vw;
+}
+
+.menuitem i {
+    transform: scale(1.1);
+}
+
+.sheader {
+    left: 0px;
+    width: 100vw;
+}
+
+#navbar {
+    margin-left: 0rem;
+    width: 100vw;
+}
+
+#navbar ul li {
+    margin: 0rem 0.1rem;
+}
+
+.main {
+    width: 100vw;
+    margin-left: 0px;
+}
+
+.mainflex {
+    width: 100vw;
+    padding-bottom: 5vh;
+    padding: 0.5rem 0rem;
+}
+
+.item {
+    max-width: 29vw;
+    height: 40vh;
+    margin: 0.9rem;
+}
+
+.item iframe {
+    max-width: 29vw;
+    min-width: 25vw;
+    height: 22vh;
+}
+
+.item p {
+    font-size: 0.94rem;
+}
+
+.item .videocontent {
+    width: 29vw;
+}
+
+.item pre {
+    font-size: 0.8rem;
+    margin-left: -0.6rem;
+}
+
+.item pre a {
+    font-size: 0.8rem;
+}
+
+.videocontent img {
+    width: 4vw;
+    margin-right: 10px;
+}

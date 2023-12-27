@@ -1,0 +1,47 @@
+.header {
+    height: 9.5vh;
+}
+
+.sheader {
+    top: 10vh;
+    height: 8.5vh;
+}
+
+.signin {
+    padding: 0.4rem 0rem;
+}
+
+#searchi {
+    height: 6.8vh;
+}
+
+.searchbtn {
+    height: 6.8vh;
+    font-size: 22px;
+}
+
+.header .searching li i {
+    font-size: 1.2;
+    padding: 7px 9px;
+}
+
+.header span img {
+    height: 3.5vh;
+    width: 4.8vw;
+}
+
+.item iframe {
+    height: 28vh;
+}
+
+.item pre {
+    font-size: 0.79rem;
+}
+
+.item pre a {
+    font-size: 0.79rem;
+}
+
+.videocontent img {
+    height: 6.5vh;
+}

@@ -1,0 +1,529 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: visible;
+}
+
+body::-webkit-scrollbar {
+    width: 0.9rem;
+    background-color: whitesmoke;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(100, 100, 100);
+    border-radius: 30px;
+    border: 3px solid white;
+}
+
+
+/* OVER ALL PAGE LAYOUT */
+
+.layout {
+    display: grid;
+    grid-template-areas: 'header header header header header header header header header' 'men men sheader sheader sheader sheader sheader sheader sheader''men men main main main main main main main';
+}
+
+.layout section {
+    /* border: 1px black solid; */
+    padding: 1px 0px;
+}
+
+.header {
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    grid-area: header;
+    height: 8.2vh;
+    position: fixed;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.960);
+}
+
+.sheader {
+    user-select: none;
+    display: flex;
+    z-index: 1;
+    grid-area: sheader;
+    height: 8vh;
+    position: fixed;
+    top: 8.5vh;
+    left: 19vw;
+    width: 80vw;
+    border-top: 1px solid rgb(228, 228, 228);
+    border-bottom: 1px solid rgb(219, 219, 219);
+    background-color: rgba(255, 255, 255, 0.960);
+}
+
+.menu {
+    grid-area: men;
+    height: 95vh;
+    position: fixed;
+    width: 18.6vw;
+    top: 8.5vh;
+    background-color: white;
+    overflow: scroll;
+}
+
+.menu::-webkit-scrollbar {
+    width: 8px;
+    background-color: white;
+}
+
+.menu::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 30px;
+}
+
+.menu:hover::-webkit-scrollbar {
+    width: 8px;
+    background-color: white;
+}
+
+.menu:hover::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 30px;
+}
+
+.main {
+    margin-top: 17vh;
+    grid-area: main;
+    height: auto;
+    width: 80.2vw;
+    margin-left: 18.8vw;
+    background-color: whitesmoke;
+}
+
+
+/* HEADER CSS */
+
+.header .menu-icon {
+    margin-left: 2rem;
+}
+
+.header span {
+    user-select: none;
+    display: inline-block;
+    transform: scale(1.5, 1.1);
+    margin: 0px 8px;
+}
+
+.header span img {
+    user-select: none;
+    margin: 0px 28px;
+    width: 4.5vw;
+    height: 3.2vh;
+}
+
+.header .searching {
+    width: 49vw;
+    margin: 0vh 10.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .searching li {
+    list-style: none;
+    margin: 3px;
+}
+
+#searchi {
+    outline: none;
+    font-size: 1rem;
+    height: 6.3vh;
+    width: 40vw;
+    padding: 5px;
+    border: 1px solid silver;
+    border-radius: 2px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+#searchi::placeholder {
+    font-size: 1rem;
+    color: gray;
+    font-family: sans-serif;
+}
+
+.searchbtn {
+    user-select: none;
+    height: 6.4vh;
+    width: 5vw;
+    font-size: 25px;
+    padding: 1px;
+    border-radius: 2px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border: 1px solid silver;
+    border-right: 0px;
+    margin-left: -8px;
+    transform: rotateY(200deg);
+    cursor: pointer;
+}
+
+.searchbtn:hover {
+    border-bottom: 1px solid rgb(167, 167, 167);
+}
+
+.searchbtn:active {
+    background-color: rgb(235, 235, 235);
+}
+
+.header .searching li i {
+    user-select: none;
+    background-color: whitesmoke;
+    padding: 10px 10px;
+    border-radius: 30px;
+    width: 1.7vw;
+    justify-content: center;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.header .searching li i:hover {
+    background-color: rgb(224, 224, 224);
+}
+
+.header .searching li i:active {
+    background-color: rgb(211, 211, 211);
+}
+
+.header .sign {
+    display: flex;
+    align-items: center;
+}
+
+.dropbtn {
+    user-select: none;
+    background-color: transparent;
+    padding: 5px 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.dropdown {
+    margin-left: 2.5vw;
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content {
+    border: 1px solid rgba(219, 219, 219, 0.582);
+    margin-left: -18vw;
+    margin-top: 2px;
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    z-index: 4;
+    padding: 5px 0px;
+}
+
+.dropdown-content a {
+    font-family: arial;
+    color: black;
+    width: 18vw;
+    font-size: 0.9rem;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a b i {
+    float: left;
+    margin-right: 5px;
+    font-size: 1rem;
+}
+
+.dropdown-content a i {
+    float: right;
+    font-size: 1.5rem;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #f1f1f1;
+}
+
+.signin {
+    border: 1px solid rgb(0, 119, 255);
+    padding: 0.5rem 0rem;
+    display: flex;
+    justify-content: center;
+    width: 8vw;
+    border-radius: 2px;
+    margin-left: 1vw;
+}
+
+.signin i {
+    user-select: none;
+    color: rgb(0, 102, 255);
+}
+
+.signin i b {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-left: 0.4rem;
+}
+
+
+/* SHEADER CSS */
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul li {
+    justify-content: center;
+    list-style: none;
+    font-size: 0.9rem;
+    margin: 0px 1vw;
+}
+
+#navbar ul li a {
+    display: block;
+    font-family: arial;
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem 0.8rem;
+    border: 1px solid silver;
+    border-radius: 20px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+#navbar ul li a:hover {
+    background-color: rgb(228, 227, 227);
+}
+
+#navbar ul li a:active {
+    background-color: black;
+    color: white;
+}
+
+#ru,
+#m {
+    display: none;
+}
+
+
+/* MAIN SECTION CSS */
+
+.mainflex {
+    height: auto;
+    width: 79.3vw;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 0px;
+    padding-left: 12px;
+}
+
+.item {
+    max-width: 18.2vw;
+    min-width: 15vw;
+    height: 40vh;
+    margin: 0.5rem;
+    border-radius: 2px;
+}
+
+.item iframe {
+    max-width: 18.2vw;
+    min-width: 15vw;
+    height: 21.5vh;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.videocontent img {
+    height: 5vh;
+    width: 2.5vw;
+    border-radius: 30px;
+    margin-right: 15px;
+}
+
+.item a {
+    text-decoration: none;
+}
+
+.item pre {
+    margin-top: 5px;
+    font-family: arial;
+    font-size: 0.79rem;
+    color: gray;
+    word-spacing: -1px;
+    cursor: pointer;
+}
+
+.item pre a {
+    font-family: arial;
+    font-size: 0.79rem;
+    color: gray;
+    word-spacing: -1px;
+    cursor: pointer;
+}
+
+.item pre i {
+    color: rgb(88, 88, 88);
+}
+
+.item p {
+    word-spacing: -1px;
+    cursor: pointer;
+    font-family: calibri;
+    font-size: 1rem;
+    color: black;
+    font-weight: bold;
+    /* margin-left: 40px;
+    margin-top: -35px; */
+    text-transform: capitalize;
+}
+
+.item .videocontent {
+    display: flex;
+}
+
+.videocontent u {
+    user-select: none;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.4rem;
+    width: 3.3vw;
+    height: 30px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease-out;
+    cursor: pointer;
+}
+
+.videocontent u:active {
+    background-color: rgb(226, 226, 226);
+}
+
+
+/* MENU SECTION CSS */
+
+.signi {
+    border: 1px solid rgb(0, 119, 255);
+    padding: 0.5rem 0rem;
+    display: flex;
+    justify-content: center;
+    width: 8vw;
+    margin-top: 15px;
+    margin-left: 2vw;
+    border-radius: 2px;
+}
+
+.signi i {
+    color: rgb(0, 102, 255);
+}
+
+.signi i u {
+    text-decoration: none;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-left: 0.4rem;
+}
+
+.menuitem {
+    font-family: arial;
+    color: black;
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menuitem:hover {
+    background-color: #f1f1f1;
+}
+
+.menuflex pre {
+    font-family: arial;
+    font-size: 0.8rem;
+    word-spacing: 5px;
+    line-height: 18px;
+    cursor: pointer;
+}
+
+.menuflex pre code {
+    color: gray;
+    cursor: auto;
+}
+
+.menuflex b {
+    font-family: arial;
+    font-size: 1rem;
+    color: gray;
+    margin: 20px 18px;
+}
+
+.menuflex p {
+    margin: 10px 30px;
+    font-family: arial;
+    font-size: 0.9rem;
+}
+
+
+/* HR SECTION OF MENU */
+
+.ha {
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+.hb {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.hc {
+    margin: 15px 0px
+}
+
+.hd {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.he {
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+.hf {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.hg {
+    margin-top: 10px;
+}

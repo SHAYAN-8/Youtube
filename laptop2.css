@@ -1,0 +1,39 @@
+.header span img {
+    margin: 0px 20px;
+}
+
+#navbar ul li {
+    margin: 0px 0.3rem;
+}
+
+#navbar ul li a {
+    padding: 0.4rem 0.69rem;
+}
+
+.item p {
+    font-size: 0.9rem;
+}
+
+.item pre {
+    font-size: 0.75rem;
+}
+
+.item pre a {
+    font-size: 0.75rem;
+}
+
+.menuflex b {
+    font-size: 0.92rem;
+}
+
+.menuitem {
+    font-size: 0.93rem;
+}
+
+.menuflex p {
+    font-size: 0.9rem;
+}
+
+.signi {
+    margin-left: 2.5vw;
+}

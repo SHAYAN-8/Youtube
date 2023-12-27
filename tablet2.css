@@ -1,0 +1,91 @@
+.header span img {
+    width: 6.5vw;
+    margin-top: 0.8vh;
+}
+
+.header .searching {
+    margin: 0vh 6vw;
+}
+
+#searchi {
+    height: 5.5vh;
+}
+
+.searchbtn {
+    height: 5.3vh;
+    font-size: 1.2rem;
+}
+
+.header .searching li i {
+    padding: 6px 8px;
+    padding-right: 14px;
+}
+
+.dropdown-content {
+    width: 25vw;
+}
+
+.signin {
+    margin-left: 0.5rem;
+    width: 9vw;
+}
+
+.signin i b {
+    font-size: 0.8rem;
+    margin-left: 0.2rem;
+}
+
+#navbar ul li {
+    margin: 0rem 0.1rem;
+}
+
+#navbar ul li a {
+    padding: 0.2rem 0.4rem;
+    font-size: 0.8rem;
+}
+
+#arrow {
+    display: none;
+}
+
+.menuitem i {
+    transform: scale(1);
+}
+
+.item {
+    max-width: 26vw;
+    height: 36vh;
+    margin: 1rem;
+}
+
+.item iframe {
+    max-width: 26vw;
+    min-width: 18vw;
+    height: 21vh;
+}
+
+.item p {
+    font-size: 0.9rem;
+}
+
+.item .videocontent {
+    width: 23vw;
+}
+
+.item pre {
+    font-size: 0.7rem;
+    margin-left: 0rem;
+}
+
+.item pre a {
+    font-size: 0.7rem;
+}
+
+.videocontent img {
+    width: 3.7vw;
+    margin-right: 10px;
+}
+
+.item .videocontent {
+    width: 26vw;
+}

@@ -1,0 +1,151 @@
+    .header span img {
+        width: 5.5vw;
+        margin-top: 0.8vh;
+    }
+    
+    .header .searching {
+        margin: 0vh 7vw;
+    }
+    
+    .header .searching li i {
+        padding: 8px 10px;
+        padding-right: 15px;
+    }
+    
+    .signin {
+        margin-left: 0.5rem;
+        width: 9vw;
+    }
+    
+    .signin i b {
+        font-size: 0.8rem;
+        margin-left: 0.2rem;
+    }
+    
+    .sheader {
+        left: 9vw;
+        width: 92vw;
+    }
+    
+    #navbar ul li {
+        margin: 0.2rem 0.3rem;
+    }
+    
+    #navbar ul li a {
+        padding: 0.3rem 0.5rem;
+        font-size: 0.82rem;
+    }
+    
+    #arrow {
+        display: block;
+    }
+    
+    .menu {
+        width: 9vw;
+    }
+    
+    .menu:hover::-webkit-scrollbar-thumb {
+        background-color: white;
+        border-radius: 30px;
+    }
+    
+    .menuflex b {
+        display: none;
+    }
+    
+    .menuitem {
+        font-size: 0rem;
+    }
+    
+    .menuflex pre {
+        display: none;
+    }
+    
+    .menuflex p {
+        display: none;
+    }
+    
+    .signi {
+        display: none;
+    }
+    
+    .menuitem i {
+        transform: scale(1.1);
+    }
+    
+    .ha {
+        display: none;
+    }
+    
+    .hb {
+        display: none;
+    }
+    
+    .hc {
+        display: none;
+    }
+    
+    .hd {
+        display: none;
+    }
+    
+    .he {
+        display: none;
+    }
+    
+    .hf {
+        display: none;
+    }
+    
+    .hg {
+        display: none;
+    }
+    
+    .main {
+        width: 92vw;
+        margin-left: 8vw;
+    }
+    
+    .mainflex {
+        width: 92vw;
+        padding: 0.5rem 1rem;
+    }
+    
+    .item {
+        max-width: 26vw;
+        height: 40vh;
+        margin: 1rem;
+    }
+    
+    .item iframe {
+        max-width: 26vw;
+        min-width: 18vw;
+        height: 23vh;
+    }
+    
+    .item p {
+        font-size: 1rem;
+    }
+    
+    .item .videocontent {
+        width: 23vw;
+    }
+    
+    .item pre {
+        font-size: 0.75rem;
+        margin-left: -0.5rem;
+    }
+    
+    .item pre a {
+        font-size: 0.75rem;
+    }
+    
+    .videocontent img {
+        height: 5vh;
+        width: 3.5vw;
+        margin-right: 10px;
+    }
+    
+    .item .videocontent {
+        width: 26vw;
+    }

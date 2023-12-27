@@ -1,0 +1,95 @@
+
+.header span img {
+    width: 7.5vw;
+    margin-left: 2vw;
+}
+
+.header .searching {
+    margin: 0vh 6vw;
+}
+
+.signin {
+    border: none;
+    width: 7vw;
+    margin-left: 0rem;
+}
+
+.signin i {
+    border: 1px solid rgb(0, 102, 255);
+    padding: 0.3rem 0.4rem;
+    border-radius: 30px;
+}
+
+.signin i b {
+    display: none;
+}
+
+.menuitem {
+    width: 2vw;
+    margin-left: 2.89vw;
+}
+
+.sheader {
+    left: 0px;
+    width: 100vw;
+    height: 6.5vh;
+}
+
+#navbar {
+    margin-left: 0rem;
+}
+
+#navbar ul li {
+    margin: 0rem 0.1rem;
+}
+
+#navbar ul li a {
+    padding: 0.2rem 0.3rem;
+    font-size: 0.72rem;
+}
+
+.main {
+    margin-top: 15vh;
+width:100vw;
+}
+
+.mainflex {
+width:100vw;
+    padding: 1rem 1rem;
+}
+
+.item {
+    max-width: 29vw;
+    height: 40vh;
+    margin: 0.5rem;
+}
+
+.item iframe {
+    max-width: 29vw;
+    min-width: 25vw;
+    height: 20vh;
+}
+
+.item p {
+    font-size: 0.9rem;
+}
+
+.item pre {
+    font-size: 0.7rem;
+    margin-left: -0.2rem;
+}
+
+.item pre a {
+    font-size: 0.7rem;
+}
+
+.videocontent img {
+    width: 4.1vw;
+    margin-right: 10px;
+}
+.menu {
+    height: 10vh;
+    width: 100vw;
+    top: 98vh;
+    overflow: hidden;
+}

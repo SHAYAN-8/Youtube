@@ -1,0 +1,39 @@
+.header .searching {
+    margin: 0vh 10vw;
+}
+
+#searchi {
+    width: 37vw;
+}
+
+#navbar ul li {
+    margin: 0px 0.4rem;
+}
+
+#navbar ul li a {
+    padding: 0.4rem 0.7rem;
+}
+
+#arrow {
+    display: none;
+}
+
+.item p {
+    font-size: 0.96rem;
+}
+
+.item pre {
+    font-size: 0.78rem;
+}
+
+.item pre a {
+    font-size: 0.78rem;
+}
+
+.menuitem {
+    font-size: 0.96rem;
+}
+
+.menuflex b {
+    font-size: 0.98rem;
+}
